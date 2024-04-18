@@ -44,7 +44,7 @@ body {
     display: flex;
     background: url(home-junior.jpg);
     background-size: cover;
-    width: 100%;
+    width: 98%;
     height: 70vh;
     align-items: center;
     padding-left: 30px;
@@ -77,7 +77,7 @@ body {
 
 .container .txt-container {
     font-size: 64px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 800px;
     border: solid 1px #B7AB8D;
     border-radius: 20px;
@@ -88,14 +88,20 @@ body {
     text-align: center;
     align-content: center;
 }
+.container .txt-container p{
+    margin-top: 25px;
+    padding: 20px;
+}
 
 .servicos-prestados {
     margin-top: 400px;
     font-size: 64px;
-    margin-left: 60px;
+    margin-left:30px;
+    margin-right: 30px;
     border: solid 1px #B7AB8D;
     border-radius: 20px;
     align-items: center;
+    margin-bottom: 30px;
 }
 .servicos h2 {
     color: #B7AB8D;
@@ -108,4 +114,25 @@ body {
 .servicos li{
     font-size: 32px;
     margin-left: 60px;
+    margin-bottom: 15px;
+}
+.rodape h4{
+    font-size: 64px;
+    color: #B7AB8D;
+}
+.rodape p{
+    font-size: 60px;
+    margin-bottom: 35px;
+}
+.rodape a{
+    margin: 30px;
+}
+.rodape {
+    display: flex;
+    border: solid 1px #B7AB8D;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    margin: 30px;
+    height: 500px ;
 }
