@@ -50,12 +50,16 @@ body {
     padding-left: 30px;
 }
 
+
 .home .txt-home p{
     font-size: 64px;
     width: 50%;
     color: #B7AB8D;
 }
-
+.home .txt-home a{
+    text-decoration: none;
+    border: 1 solid white;
+}
 .container {
     margin-top: 300px;
     display: flex;
