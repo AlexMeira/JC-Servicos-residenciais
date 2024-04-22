@@ -50,7 +50,7 @@ body {
     padding-left: 30px;
 }
 .home .txt-home p{
-    font-size: 64px;
+    font-size: 44px;
     width: 50%;
     color: #B7AB8D;
 }
@@ -139,12 +139,15 @@ body {
     height: 500px ;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1000px) {
     .cabecalho .menu {
         display: none;
     }
+    .cabecalho.logo {
+        align-content: center;
+    }
     .home .txt-home p{
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .container .img-container {
