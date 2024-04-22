@@ -183,33 +183,52 @@ body {
     .menu {
         display: none;
     }
-    .home .txt-home {
-        height: auto;
-        width: 100%;
-        flex-direction: column;
-        padding: 0px;
-    }
+   
     .home .txt-home a {
         display: none;
     }
-    
+    .home .img-container {
+        width: auto;
+    }
     .home .txt-home p{
         font-size: 25px;
+        width: 70%;
     }
     .container .txt-container {
         width: auto;
     }
     .container .txt-container p{
-        font-size: 35px;
+        font-size: 7vw;
     }
+    .servicos .servicos-prestados{
 
+    }
+    .servicos .servicos-prestados h2{
+        font-size: 9vw;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .servicos .servicos-prestados  h3{
+        font-size: 7vw;
+        margin-left: 10px;
+    }
+    .servicos .servicos-prestados li{
+        font-size: 6vw;
+        text-align: left;
+        margin-left: 10px;
+        
+    }
+    
     .rodape {
         height: auto;
     }
-    .rodape p{
-        font-size: 20px;
+    .rodape .card p{
+        font-size: 7vw;
     }
-    .rodape h3 {
-        font-size: 40px;
+    .rodape h4 {
+        font-size: 7vw;
+    }
+    .rodape .redes img{
+        width: 50px;
     }
 }
